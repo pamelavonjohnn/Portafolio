@@ -1,11 +1,13 @@
 :root {
-    --bg-body: #eef1f3;
-    --bg-header: #d9e0e5;
-    --text-dark: #1a1a1a;
-    --text-muted: #555;
-    --accent-color: #2c4a52;
+    /* Nueva paleta Sunset */
+    --bg-body: #fdf8f6; /* Un blanco durazno muy suave para lectura cómoda */
+    --bg-header: #fae6de; /* Un tono durazno derivado de #F8B195 */
+    --text-dark: #355C7D; /* Azul profundo para el texto principal */
+    --text-muted: #6C5B7B; /* Morado oscuro para textos secundarios */
+    --accent-color: #C06C84; /* Magenta/Rosa viejo para botones y acentos principales */
+    --accent-hover: #F67280; /* Coral para el efecto hover al pasar el mouse */
     --white: #ffffff;
-    --border-color: #ccc;
+    --border-color: #eccdc3;
     --transition: all 0.3s ease;
 }
 
@@ -72,7 +74,7 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--accent-color);
+    color: var(--accent-hover);
 }
 
 .nav-link::after {
@@ -82,7 +84,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--accent-color);
+    background: var(--accent-hover);
     transition: var(--transition);
 }
 
@@ -111,7 +113,7 @@ body {
 }
 
 .lang-btn:hover {
-    background-color: rgba(44, 74, 82, 0.1);
+    background-color: rgba(192, 108, 132, 0.1);
     color: var(--accent-color);
 }
 
@@ -145,7 +147,7 @@ body {
     align-items: center;
     text-align: center;
     gap: 20px;
-    border-bottom: 2px solid #cfd7dc;
+    border-bottom: 2px solid var(--border-color);
     animation: fadeInDown 1s ease;
 }
 
@@ -158,8 +160,8 @@ body {
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid var(--accent-color);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 4px solid var(--white);
+    box-shadow: 0 4px 15px rgba(53, 92, 125, 0.15);
 }
 
 .header-info h1 {
@@ -168,7 +170,7 @@ body {
     text-transform: uppercase;
     line-height: 1.1;
     margin-bottom: 5px;
-    color: #2c3e50;
+    color: var(--text-dark);
 }
 
 .header-info h2 {
@@ -176,7 +178,7 @@ body {
     font-weight: 500;
     letter-spacing: 1px;
     margin-bottom: 15px;
-    color: var(--text-dark);
+    color: var(--text-muted);
 }
 
 .contact-badges {
@@ -187,14 +189,14 @@ body {
 }
 
 .contact-badge {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
     padding: 6px 15px;
     border-radius: 20px;
     font-size: 0.9rem;
     display: flex;
     align-items: center;
     gap: 8px;
-    color: #333;
+    color: var(--text-dark);
 }
 
 .contact-badge i {
@@ -277,8 +279,8 @@ h3::after {
 
 .download-btn:hover {
     transform: translateY(-3px);
-    background-color: #1e3338;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background-color: var(--accent-hover);
+    box-shadow: 0 4px 10px rgba(192, 108, 132, 0.3);
 }
 
 /* Timeline de Experiencia */
@@ -296,7 +298,7 @@ h3::after {
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: var(--text-dark);
+    background-color: var(--border-color);
 }
 
 .timeline-item {
@@ -305,7 +307,7 @@ h3::after {
     background: var(--white);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.03);
+    box-shadow: 0 4px 10px rgba(53, 92, 125, 0.05);
 }
 
 .timeline-icon {
@@ -329,7 +331,7 @@ h3::after {
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--bg-body);
     padding-bottom: 10px;
 }
 
@@ -341,8 +343,8 @@ h3::after {
 
 .timeline-date {
     font-size: 0.9rem;
-    color: var(--text-muted);
-    background: var(--bg-body);
+    color: var(--text-dark);
+    background: var(--bg-header);
     padding: 3px 10px;
     border-radius: 15px;
 }
@@ -372,7 +374,7 @@ h3::after {
     border-radius: 10px;
     padding: 20px 10px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(53, 92, 125, 0.05);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -382,7 +384,7 @@ h3::after {
 
 .skill-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 15px rgba(192, 108, 132, 0.15);
 }
 
 .skill-card i {
@@ -403,7 +405,7 @@ h3::after {
     background: var(--white);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(53, 92, 125, 0.05);
 }
 .lang-item {
     display: flex;
@@ -419,7 +421,7 @@ h3::after {
 .lang-bar-bg {
     flex-grow: 1;
     height: 10px;
-    background-color: #e0e5e8;
+    background-color: var(--border-color);
     border-radius: 5px;
     margin: 0 20px;
     position: relative;
@@ -452,7 +454,7 @@ h3::after {
     padding: 20px;
     border-radius: 10px;
     border-left: 4px solid var(--accent-color);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(53, 92, 125, 0.05);
 }
 .academic-item strong {
     display: block;
@@ -475,14 +477,14 @@ h3::after {
     background-color: var(--white);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(53, 92, 125, 0.05);
     transition: var(--transition);
     border-top: 4px solid transparent;
 }
 .other-exp-card:hover {
     transform: translateY(-5px);
     border-top: 4px solid var(--accent-color);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 15px rgba(192, 108, 132, 0.15);
 }
 .other-exp-card h4 {
     font-size: 1.1rem;
@@ -506,7 +508,7 @@ h3::after {
     transition: var(--transition);
 }
 .cert-link:hover {
-    color: #1a1a1a;
+    color: var(--accent-hover);
     text-decoration: underline;
 }
 .mt-2 {
@@ -520,7 +522,7 @@ h3::after {
     background: var(--white);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 10px rgba(53, 92, 125, 0.05);
 }
 .contact-form input,
 .contact-form textarea {
@@ -530,7 +532,7 @@ h3::after {
     border: 1px solid var(--border-color);
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
-    background-color: #fafafa;
+    background-color: #fdfafa;
     transition: var(--transition);
 }
 .contact-form input:focus,
@@ -538,7 +540,7 @@ h3::after {
     outline: none;
     border-color: var(--accent-color);
     background-color: var(--white);
-    box-shadow: 0 0 0 3px rgba(44, 74, 82, 0.1);
+    box-shadow: 0 0 0 3px rgba(192, 108, 132, 0.15);
 }
 .contact-form textarea {
     height: 120px;
@@ -558,14 +560,14 @@ h3::after {
 }
 .contact-form button:hover {
     transform: translateY(-2px);
-    background-color: #1e3338;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    background-color: var(--accent-hover);
+    box-shadow: 0 4px 10px rgba(246, 114, 128, 0.25);
 }
 
 /* Footer */
 footer {
     background-color: var(--text-dark);
-    color: #999;
+    color: #e0e0e0;
     text-align: center;
     padding: 30px 20px;
     margin-top: 40px;
@@ -574,14 +576,14 @@ footer {
     margin-bottom: 15px;
 }
 .social-icons a {
-    color: #ccc;
+    color: #cbd4db;
     font-size: 1.5rem;
     margin: 0 10px;
     text-decoration: none;
     transition: var(--transition);
 }
 .social-icons a:hover {
-    color: var(--white);
+    color: var(--accent-hover);
     transform: scale(1.1);
 }
 
@@ -607,7 +609,7 @@ footer {
         width: 100%;
         text-align: center;
         transition: 0.3s ease-in-out;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        box-shadow: 0 10px 20px rgba(53, 92, 125, 0.1);
         padding: 2rem 0;
         gap: 1.5rem;
     }
@@ -646,29 +648,30 @@ footer {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(53, 92, 125, 0.1);
     transition: var(--transition);
 }
 
 .gallery-img:hover {
     transform: scale(1.03);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 15px rgba(53, 92, 125, 0.2);
 }
 
 /* Clase especial para imágenes completas (Dashboards, capturas, etc) */
 .gallery-img-full {
     width: 100%;
-    height: auto; /* Esto permite que la imagen crezca proporcionalmente */
-    object-fit: contain; /* Asegura que no se recorte nada */
+    height: auto; 
+    object-fit: contain; 
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(53, 92, 125, 0.1);
     transition: var(--transition);
 }
 
 .gallery-img-full:hover {
     transform: scale(1.02);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 15px rgba(53, 92, 125, 0.2);
 }
+
 /* Justificar el texto en las páginas de detalle de experiencia */
 .detail-section p {
     text-align: justify;
