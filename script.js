@@ -56,8 +56,9 @@ window.addEventListener('scroll', () => {
     const logo = document.querySelector('.nav-logo');
     if (navbar) {
         if (window.scrollY > 50) {
-            navbar.style.background = 'rgba(217, 224, 229, 0.98)';
-            navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            // NUEVO COLOR: Durazno transparente para el scroll
+            navbar.style.background = 'rgba(248, 229, 221, 0.98)'; 
+            navbar.style.boxShadow = '0 2px 10px rgba(53, 92, 125, 0.1)';
             if (logo) logo.style.display = 'block';
         } else {
             navbar.style.background = 'var(--bg-header)';
