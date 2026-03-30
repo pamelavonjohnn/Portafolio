@@ -139,7 +139,32 @@ const translations = {
         "btn_more_info": "Más información",
         "msg_success": "¡Mensaje enviado con éxito!",
         "msg_error": "Hubo un problema. Intenta de nuevo.",
-        "nav_back": "Volver al Portafolio"
+        "nav_back": "Volver al Portafolio",
+        // --- (EN ESPAÑOL) TEXTOS PARA PÁGINAS DE DETALLE ---
+        "nav_back": "Volver al Portafolio",
+        "gallery_title": "Galería de Proyectos",
+        "pame_op_title": "Ayudantía: Gestión de Operaciones",
+        "pame_op_subtitle": "Guía de sección práctica con RobotStudio",
+        "pame_op_detail": "Lideré las sesiones prácticas del curso, enseñando a los estudiantes el uso del software de simulación RobotStudio para el diseño y programación de celdas robóticas industriales.",
+        "pame_log_title": "Ayudantía: Logística y Cadenas de Suministro",
+        "pame_log_subtitle": "Revisión de talleres y material complementario",
+        "pame_log_detail": "Encargada de la revisión de talleres prácticos y del desarrollo de material de apoyo para facilitar el aprendizaje de los conceptos clave en la gestión de la cadena de suministro.",
+        "pame_sinergia_title": "Práctica de Estudios: Sinergia SPA",
+        "pame_sinergia_subtitle": "Asesoría técnica y estrategias comerciales",
+        "pame_sinergia_detail": "Brindé asesoría técnica enfocada en la estructuración de costos y participé en el desarrollo de estrategias comerciales diseñadas específicamente para impulsar el crecimiento de MYPES.",
+        "pame_datos_title": "Ayudantía: Introducción al Análisis de Datos",
+        "pame_datos_subtitle": "Preparación de material y apoyo docente",
+        "pame_datos_detail": "Desarrollé material didáctico y brindé apoyo directo durante las clases, ayudando a los alumnos a dar sus primeros pasos en el análisis de datos y la estadística.",
+        "pame_bruma_title": "Experiencia: Bruma Limitada",
+        "pame_bruma_subtitle": "Gestión de inventario y mantenimiento",
+        "pame_bruma_detail": "Responsable de la gestión integral del inventario, realización de mantenimiento técnico en diversas sucursales y atención directa al público, asegurando la calidad del servicio.",
+        "pame_tokosova_title": "Práctica de Estudios: CZ Tokosova",
+        "pame_tokosova_subtitle": "Perfiles de cargo y análisis en Excel",
+        "pame_tokosova_detail": "Realicé la descripción y levantamiento de perfiles de cargo de la empresa. Además, utilicé Microsoft Excel a nivel avanzado para la gestión y análisis de información interna.",
+        "pame_alemania_title": "Práctica Internacional: Alemania",
+        "pame_alemania_subtitle": "Asistente en Praxis Dr. Kiehne und Dr. Eberhard",
+        "pame_alemania_detail": "Realicé una práctica internacional asistiendo en una clínica pediátrica en Alemania, lo que me permitió perfeccionar mi dominio del idioma alemán y ganar experiencia intercultural invaluable."
+        // -----------------------------------------------------
     },
     de: {
         "nav_about": "Über mich",
@@ -211,7 +236,33 @@ const translations = {
         "btn_more_info": "Weitere Informationen",
         "msg_success": "Nachricht erfolgreich gesendet!",
         "msg_error": "Es gab ein Problem. Bitte versuchen Sie es erneut.",
-        "nav_back": "Zurück zum Portfolio"
+        "nav_back": "Zurück zum Portfolio",
+        // --- (EN ALEMÁN) TEXTOS PARA PÁGINAS DE DETALLE ---
+        // (Añade esto dentro del bloque "de: { ... }")
+        "nav_back": "Zurück zum Portfolio",
+        "gallery_title": "Projektgalerie",
+        "pame_op_title": "Tutorium: Operations Management",
+        "pame_op_subtitle": "Praktische Anleitung mit RobotStudio",
+        "pame_op_detail": "Leitung der praktischen Sitzungen des Kurses, in denen den Studierenden die Nutzung der Simulationssoftware RobotStudio für das Design und die Programmierung industrieller Roboterzellen vermittelt wurde.",
+        "pame_log_title": "Tutorium: Logistik und Supply Chain",
+        "pame_log_subtitle": "Überprüfung von Workshops und Zusatzmaterial",
+        "pame_log_detail": "Verantwortlich für die Überprüfung praktischer Workshops und die Entwicklung von Unterstützungsmaterial, um das Erlernen von Schlüsselkonzepten im Supply Chain Management zu erleichtern.",
+        "pame_sinergia_title": "Praktikum: Sinergia SPA",
+        "pame_sinergia_subtitle": "Technische Beratung und kommerzielle Strategien",
+        "pame_sinergia_detail": "Ich bot technische Beratung mit Schwerpunkt auf Kostenstrukturierung und beteiligte mich an der Entwicklung kommerzieller Strategien, die speziell zur Förderung des Wachstums von Kleinunternehmen (MYPES) entwickelt wurden.",
+        "pame_datos_title": "Tutorium: Einführung in die Datenanalyse",
+        "pame_datos_subtitle": "Vorbereitung von Material und Lehrunterstützung",
+        "pame_datos_detail": "Ich entwickelte Lehrmaterial und leistete direkte Unterstützung während des Unterrichts, um den Studierenden bei ihren ersten Schritten in der Datenanalyse und Statistik zu helfen.",
+        "pame_bruma_title": "Erfahrung: Bruma Limitada",
+        "pame_bruma_subtitle": "Bestandsmanagement und Instandhaltung",
+        "pame_bruma_detail": "Verantwortlich für die ganzheitliche Bestandsverwaltung, die Durchführung technischer Wartungsarbeiten in verschiedenen Filialen und den direkten Kundenservice zur Sicherstellung der Servicequalität.",
+        "pame_tokosova_title": "Praktikum: CZ Tokosova",
+        "pame_tokosova_subtitle": "Stellenprofile und Excel-Analyse",
+        "pame_tokosova_detail": "Ich erstellte die Beschreibung und Erhebung von Stellenprofilen des Unternehmens. Darüber hinaus nutzte ich Microsoft Excel auf fortgeschrittenem Niveau für das Management und die Analyse interner Informationen.",
+        "pame_alemania_title": "Internationales Praktikum: Deutschland",
+        "pame_alemania_subtitle": "Assistenz in der Praxis Dr. Kiehne und Dr. Eberhard",
+        "pame_alemania_detail": "Ich absolvierte ein internationales Praktikum als Assistenz in einer Kinderarztpraxis in Deutschland, was mir ermöglichte, meine Deutschkenntnisse zu perfektionieren und unschätzbare interkulturelle Erfahrungen zu sammeln."
+        // -----------------------------------------------------
     },
     en: {
         "nav_about": "About Me",
@@ -283,7 +334,33 @@ const translations = {
         "btn_more_info": "More information",
         "msg_success": "Message sent successfully!",
         "msg_error": "There was a problem. Please try again.",
-        "nav_back": "Back to Portfolio"
+        "nav_back": "Back to Portfolio",
+        // --- (EN INGLÉS) TEXTOS PARA PÁGINAS DE DETALLE ---
+        // (Añade esto dentro del bloque "en: { ... }")
+        "nav_back": "Back to Portfolio",
+        "gallery_title": "Project Gallery",
+        "pame_op_title": "Teaching Assistant: Operations Management",
+        "pame_op_subtitle": "Practical guidance with RobotStudio",
+        "pame_op_detail": "Led the practical sessions of the course, teaching students the use of RobotStudio simulation software for the design and programming of industrial robotic cells.",
+        "pame_log_title": "Teaching Assistant: Logistics and Supply Chain",
+        "pame_log_subtitle": "Workshop review and supplementary material",
+        "pame_log_detail": "Responsible for reviewing practical workshops and developing support material to facilitate the learning of key concepts in supply chain management.",
+        "pame_sinergia_title": "Internship: Sinergia SPA",
+        "pame_sinergia_subtitle": "Technical consulting and commercial strategies",
+        "pame_sinergia_detail": "Provided technical consulting focused on cost structuring and participated in the development of commercial strategies specifically designed to drive the growth of small businesses (MYPES).",
+        "pame_datos_title": "Teaching Assistant: Introduction to Data Analysis",
+        "pame_datos_subtitle": "Material preparation and teaching support",
+        "pame_datos_detail": "Developed teaching materials and provided direct support during classes, helping students take their first steps in data analysis and statistics.",
+        "pame_bruma_title": "Experience: Bruma Limitada",
+        "pame_bruma_subtitle": "Inventory management and maintenance",
+        "pame_bruma_detail": "Responsible for comprehensive inventory management, technical maintenance across various branches, and direct customer service, ensuring service quality.",
+        "pame_tokosova_title": "Internship: CZ Tokosova",
+        "pame_tokosova_subtitle": "Job profiles and Excel analysis",
+        "pame_tokosova_detail": "Carried out the description and profiling of company job roles. Additionally, used advanced Microsoft Excel for internal information management and analysis.",
+        "pame_alemania_title": "International Internship: Germany",
+        "pame_alemania_subtitle": "Assistant at Praxis Dr. Kiehne und Dr. Eberhard",
+        "pame_alemania_detail": "Completed an international internship assisting in a pediatric clinic in Germany, allowing me to perfect my German language skills and gain invaluable intercultural experience."
+        // -----------------------------------------------------
     }
 };
 
