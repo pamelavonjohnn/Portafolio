@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walter Jürgen Köcher Gómez - Portafolio Interactivo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="3600973.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">WK</div>
+            <ul class="nav-menu">
+                <li><a href="#sobre-mi" class="nav-link" data-key="nav_about">Sobre Mí</a></li>
+                <li><a href="#experiencia" class="nav-link" data-key="nav_exp">Experiencia</a></li>
+                <li><a href="#habilidades" class="nav-link" data-key="nav_skills">Habilidades</a></li>
+                <li><a href="#formacion" class="nav-link" data-key="nav_edu">Formación</a></li>
+                <li><a href="#otras-experiencias" class="nav-link" data-key="nav_other">Otras Experiencias</a></li>
+                <li><a href="#contacto" class="nav-link" data-key="nav_contact">Contacto</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button onclick="changeLanguage('es')" id="btn-es" class="lang-btn active">ES</button>
+                <button onclick="changeLanguage('de')" id="btn-de" class="lang-btn">DE</button>
+                <button onclick="changeLanguage('en')" id="btn-en" class="lang-btn">EN</button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="header">
+        <div class="profile-img-container">
+            <img src="img/opcion2.JPG" alt="Walter Jürgen Köcher Gómez" class="profile-img">
+        </div>
+        <div class="header-info">
+            <h1>WALTER JÜRGEN<br>KÖCHER GÓMEZ</h1>
+            <h2 data-key="header_subtitle">ESTUDIANTE DE INGENIERÍA CIVIL INDUSTRIAL</h2>
+            <div class="contact-badges">
+                <span class="contact-badge"><i class="fas fa-phone"></i> +56988239680</span>
+                <span class="contact-badge"><i class="fas fa-envelope"></i> w.kocher.gomez@gmail.com</span>
+                <span class="contact-badge"><i class="fas fa-map-marker-alt"></i> Lagos 645, Temuco</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="sobre-mi">
+            <h3 data-key="about_title">Sobre Mí</h3>
+            <p data-key="about_text">Ingeniero Civil Industrial, con un fuerte enfoque en la optimización de procesos y el análisis de datos. Busco aplicar metodologías ágiles y soluciones tecnológicas para resolver problemas organizacionales complejos. Cuento con capacidad para trabajar en equipos multidisciplinarios y adaptarme a distintos entornos, con el objetivo actual de proyectar mi carrera a nivel internacional y aplicar mis conocimientos profesionales.</p>
+            <a href="curriculum_walter_kocher_es.pdf" id="cv-link" download class="download-btn">
+                <i class="fas fa-download"></i> <span data-key="btn_cv">Descargar CV en PDF</span>
+            </a>
+        </section>
+
+        <section id="experiencia">
+            <h3 data-key="exp_title">Experiencia Laboral</h3>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">Universidad de La Frontera</span>
+                        <span class="timeline-date" data-key="date_actual_2025">2025 - Actual</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role6">Ayudante de Logística y Cadena de Suministros</div>
+                    <ul>
+                        <li data-key="exp_desc6">Desarrollo de Talleres y realización de clases prácticas</li>
+                    </ul>
+                    <a href="exp-ufro-logistica.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">Universidad de La Frontera</span>
+                        <span class="timeline-date" data-key="date_actual_2025">2025 - Actual</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role7">Ayudante de Formulación y Evaluación de Proyectos</div>
+                    <ul>
+                        <li data-key="exp_desc7">Desarrollo de Talleres y realización de clases prácticas</li>
+                    </ul>
+                    <a href="exp-ufro-proyectos.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">Universidad de La Frontera</span>
+                        <span class="timeline-date" data-key="date_actual">Agosto 2024 - Actual</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role1">Ayudante de Investigación y Operaciones</div>
+                    <ul>
+                        <li data-key="exp_desc1">Desarrollo de Talleres y realización de clases practicas</li>
+                    </ul>
+                    <a href="exp-ufro-inv.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">CO-AX Válvulas S.L. Madrid</span>
+                        <span class="timeline-date">Dic 2024 - Mar 2025</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role3">Práctica de estudios</div>
+                    <ul>
+                        <li data-key="exp_desc3_1">Implementación de un banco de pruebas.</li>
+                    </ul>
+                    <a href="exp-coax-2024.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">Universidad de La Frontera</span>
+                        <span class="timeline-date">Agosto 2023 - Julio 2024</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role2">Ayudante de Termodinámica</div>
+                    <ul>
+                        <li data-key="exp_desc2">Desarrollo de material complementario</li>
+                    </ul>
+                    <a href="exp-ufro-termo.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">CO-AX Válvulas S.L. Madrid</span>
+                        <span class="timeline-date">Ene 2024 - Mar 2024</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role4">Práctica de estudios</div>
+                    <ul>
+                        <li data-key="exp_desc4">Desarrollo de un banco de pruebas.</li>
+                    </ul>
+                    <a href="exp-coax-ene2024.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-header">
+                        <span class="timeline-company">m-tech gmbh. Alemania</span>
+                        <span class="timeline-date">Ene 2023 - Mar 2023</span>
+                    </div>
+                    <div class="timeline-role" data-key="exp_role5">Práctica de estudios</div>
+                    <ul>
+                        <li data-key="exp_desc5">Programación PLC de sistema semi-automático de llenado de gases.</li>
+                    </ul>
+                    <a href="exp-mtech.html" class="cert-link mt-2"><i class="fas fa-info-circle"></i> <span data-key="btn_more_info">Más información</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h3 data-key="skills_title">Habilidades Técnicas y Herramientas</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <span data-key="skill1">Mejora Continua (Lean Six Sigma)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <span data-key="skill2">Análisis de Datos</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-microchip"></i>
+                    <span data-key="skill3">Automatización y PLC</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <span data-key="skill4">Programación (Java, Python)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cube"></i>
+                    <span data-key="skill5">Diseño 3D (Catia v5, SolidWorks)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-object-group"></i>
+                    <span data-key="skill6">Comunicación Visual (Adobe Photoshop)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <span data-key="skill7">Simulación (AnyLogic, Arena)</span>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <span data-key="skill8">Gemelos Digitales (Digital Twins)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="idiomas">
+            <h3 data-key="lang_title">Idiomas</h3>
+            <div class="languages">
+                <div class="lang-item">
+                    <div class="lang-name" data-key="lang_es">Español</div>
+                    <div class="lang-bar-bg"><div class="lang-bar-fill" data-width="100%"></div></div>
+                    <div class="lang-level" data-key="lang_level_native">Nivel Nativo</div>
+                </div>
+                <div class="lang-item">
+                    <div class="lang-name" data-key="lang_de">Alemán</div>
+                    <div class="lang-bar-bg"><div class="lang-bar-fill" data-width="60%"></div></div> <div class="lang-level" data-key="lang_level_med">Nivel Medio</div> </div>
+                <div class="lang-item">
+                    <div class="lang-name" data-key="lang_en">Inglés</div>
+                    <div class="lang-bar-bg"><div class="lang-bar-fill" data-width="50%"></div></div>
+                    <div class="lang-level" data-key="lang_level_med">Nivel Medio</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacion">
+            <h3 data-key="edu_title">Datos Académicos</h3>
+            <div class="academic-grid">
+                <div class="academic-item">
+                    <strong>Universidad de La Frontera</strong>
+                    <span data-key="edu_minor">Minor en Análisis de Datos</span>
+                    <span data-key="status_current">(En curso)</span>
+                </div>
+                
+                <div class="academic-item">
+                    <strong>Universidad de La Frontera</strong>
+                    <span data-key="edu_degree">Licenciatura en Ciencias de la Ingeniería</span>
+                    <a href="certificados/grado_licenciatura_ufro.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="academic-item">
+                    <strong>Goethe-Institut</strong>
+                    <span>Zertifikat B1</span>
+                    <a href="certificados/aleman_b1_goethe.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="academic-item">
+                    <strong>Sprachschule AKTIV</strong>
+                    <span>Sprachkurs A1 & A2</span>
+                    <div class="cert-links-group">
+                        <a href="certificados/aleman_a1_aktiv.PNG" target="_blank" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span> A1
+                        </a>
+                        <a href="certificados/aleman_a2_aktiv.PNG" target="_blank" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span> A2
+                        </a>
+                    </div>
+                </div>
+                <div class="academic-item">
+                    <strong>INFORCAP LIMITADA</strong>
+                    <span>Full Stack Java Trainee</span>
+                    <a href="certificados/fullstack_java_inforcap.pdf" target="_blank" class="cert-link"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="otras-experiencias">
+            <h3 data-key="other_title">Otras Experiencias</h3>
+            <div class="other-exp-grid">
+                <div class="other-exp-card">
+                    <h4>CIG 2024 - Taller</h4>
+                    <p data-key="other_desc1">Participación en taller de optimización de rutas de despacho para vehículos de reparto.</p>
+                    <a href="certificados/taller_rutas_cig_2024.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="other-exp-card">
+                    <h4>CIG 2024 - Congreso</h4>
+                    <p data-key="other_desc_cig">Asistencia al Congreso de Ingeniería Global 2024.</p>
+                    <a href="certificados/asistencia_cig_2024.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="other-exp-card">
+                    <h4>CLEIN 2023</h4>
+                    <p data-key="other_desc2">Participación en Congreso Latinoamericano de Estudiantes e Ingenieros Industriales y Afines (México).</p>
+                    <a href="certificados/asistencia_clein_2023.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+                <div class="other-exp-card">
+                    <h4>Lean Six Sigma</h4>
+                    <p data-key="other_desc3">Participación en taller de Lean Six Sigma White Belt y Lean Six Sigma Yellow Belt.</p>
+                    <a href="certificados/taller_six_sigma.pdf" target="_blank" class="cert-link mt-2"><i class="fas fa-external-link-alt"></i> <span data-key="btn_cert">Ver Certificado</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h3 data-key="contact_title">Contacto</h3>
+            <div class="contact-form">
+                <form id="contactForm" action="https://formspree.io/f/xvzwydbq" method="POST">
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" data-placeholder-key="contact_name_ph" required>
+                    <input type="email" id="email" name="email" placeholder="Tu email" data-placeholder-key="contact_email_ph" required>
+                    <textarea id="message" name="message" placeholder="Tu mensaje" data-placeholder-key="contact_msg_ph" required></textarea>
+                    <button type="submit" data-key="contact_btn">Enviar Mensaje</button>
+                    <p id="form-status" style="display:none; text-align:center; margin-top:10px; color:var(--accent-color); font-weight:500;"></p>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://cl.linkedin.com/in/walter-j%C3%BCrgen-k%C3%B6cher-g%C3%B3mez" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; <span id="year"></span> Walter Jürgen Köcher Gómez. <span data-key="footer_rights">Todos los derechos reservados.</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
