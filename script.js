@@ -72,6 +72,7 @@ window.addEventListener('scroll', () => {
 const translations = {
     es: {
         "nav_about": "Sobre Mí",
+        "btn_cert": "Ver Certificado",
         "nav_exp": "Experiencia",
         "nav_skills": "Habilidades",
         "nav_edu": "Formación",
@@ -169,6 +170,7 @@ const translations = {
     },
     de: {
         "nav_about": "Über mich",
+        "btn_cert": "Zertifikat ansehen",
         "nav_exp": "Erfahrung",
         "nav_skills": "Fähigkeiten",
         "nav_edu": "Ausbildung",
@@ -267,6 +269,7 @@ const translations = {
     },
     en: {
         "nav_about": "About Me",
+        "btn_cert": "View Certificate",
         "nav_exp": "Experience",
         "nav_skills": "Skills",
         "nav_edu": "Education",
