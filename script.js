@@ -411,9 +411,9 @@ if (yearEl) {
 
 // Archivos de CV correspondientes a cada idioma (Asegúrate de tener estos archivos o ajustar los nombres)
 const cvFiles = {
-    es: "CV_PamelaVonJohnn_2026_ES.pdf",
-    de: "CV_PamelaVonJohnn_2026_DE.pdf",
-    en: "CV_PamelaVonJohnn_2026_EN.pdf"
+    es: "certificados/CV_PamelaVonJohnn_2026_ES.pdf",
+    de: "certificados/CV_PamelaVonJohnn_2026_DE.pdf",
+    en: "certificados/CV_PamelaVonJohnn_2026_EN.pdf"
 };
 
 function changeLanguage(lang) {
