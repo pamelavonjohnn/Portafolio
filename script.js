@@ -84,7 +84,8 @@ const translations = {
         "btn_cv": "Descargar CV en PDF",
         "exp_title": "Experiencia Laboral",
         "date_actual_2025": "2025 - Actualidad",
-        
+        "date_actual_2026": "2026 - Actualidad",
+        "exp_prac": "Actividad de Titulación",
         "exp_role1": "Ayudante Gestión de operaciones",
         "exp_desc1": "Guía de sección práctica de curso utilizando software RobotStudio.",
         "exp_role2": "Ayudante de Logística y cadenas de suministro",
@@ -182,7 +183,8 @@ const translations = {
         "btn_cv": "Lebenslauf als PDF herunterladen",
         "exp_title": "Berufserfahrung",
         "date_actual_2025": "2025 - Heute",
-        
+        "date_actual_2026": "2026 - Heute",
+        "exp_prac": "Abschlussarbeit"
         "exp_role1": "Tutorin für Operations Management",
         "exp_desc1": "Leitung praktischer Übungen unter Verwendung der RobotStudio-Software.",
         "exp_role2": "Tutorin für Logistik und Supply Chain",
@@ -281,7 +283,8 @@ const translations = {
         "btn_cv": "Download CV in PDF",
         "exp_title": "Work Experience",
         "date_actual_2025": "2025 - Present",
-        
+        "date_actual_2026": "2026 - Present",
+        "exp_prac": "Thesis",
         "exp_role1": "Teaching Assistant: Operations Management",
         "exp_desc1": "Guided practical course sections using RobotStudio software.",
         "exp_role2": "Teaching Assistant: Logistics and Supply Chain",
