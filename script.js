@@ -184,7 +184,7 @@ const translations = {
         "exp_title": "Berufserfahrung",
         "date_actual_2025": "2025 - Heute",
         "date_actual_2026": "2026 - Heute",
-        "exp_prac": "Abschlussarbeit"
+        "exp_prac": "Abschlussarbeit",
         "exp_role1": "Tutorin für Operations Management",
         "exp_desc1": "Leitung praktischer Übungen unter Verwendung der RobotStudio-Software.",
         "exp_role2": "Tutorin für Logistik und Supply Chain",
